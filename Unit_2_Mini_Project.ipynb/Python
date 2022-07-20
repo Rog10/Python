@@ -1,0 +1,62 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Unit 2 Mini Project.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNlQTYZjk6OEJlKJz3NAxPR",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Rog10/Python/blob/main/Unit_2_Mini_Project.ipynb/Python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7ri3ALEM49CP",
+        "outputId": "2cd465c3-6c97-486e-84b1-ba205ae9dca0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 7\n",
+            "You picked an odd number.\n"
+          ]
+        }
+      ],
+      "source": [
+        "num = int(input(\"Enter a number: \"))\n",
+        "mod = num % 2\n",
+        "if mod > 0:\n",
+        "  print(\"You picked an odd number.\")\n",
+        "else:\n",
+        "  print(\"you picked an even number.\")  \n",
+        "if num % 4 == 0:\n",
+        "  print(num, \"is a multiple of 4\")"
+      ]
+    }
+  ]
+}
